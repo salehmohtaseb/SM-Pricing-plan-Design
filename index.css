@@ -1,0 +1,165 @@
+.customHeader {
+    margin-top: 3%;
+}
+
+.customBody {
+    margin-top: 5%;
+}
+
+.custom-sidebar {
+    margin-top: 7.4%;
+}
+
+.footer-body {
+    margin-top: 3%;
+}
+
+.footer-body a{
+   width: 30%
+}
+
+.flex-column a {
+    color: #999;
+   
+}
+
+.coveredIcon {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.1em 0.2em;
+    background-color: #f1f110aa;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left
+}
+
+.flex-column i {
+    display: block;
+    padding: .75rem 1rem;
+}
+
+.co-orange {
+    color: orange
+}
+
+.co-blue {
+    color: blue;
+}
+
+.co-grey {
+    color: grey
+}
+
+.no-padding {
+    padding: 0 0 0 0;
+}
+
+.inner-padding {
+    padding: 0.7% 0.7% 0.7% 0.7%;
+}
+
+.selected {
+    border-color: blue;
+    box-shadow: 1px 2px blue;
+    padding-right: 0;
+}
+
+.offerSection {
+    display: inline-grid;
+}
+
+.saving {
+  background-color: #fdfdd1;
+}
+
+.fixed {
+    padding-right: 0;
+    margin-top: 10px
+}
+
+.sub-total {
+    border-left: 1px groove #999;
+}
+
+.selected .card-body .sub-total {
+    background-color: #a0f3f14a;
+}
+
+
+.checkbox {
+    padding-left: 20px;
+    margin-top: -50%;
+}
+
+.checkbox label {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding-left: 5px;
+}
+.checkbox label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 0;
+    margin-left: -20px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    background-color: #fff;
+    -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+.checkbox label::after {
+    display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 0;
+    top: 0;
+    margin-left: -20px;
+    padding-left: 3px;
+    padding-top: 1px;
+    font-size: 11px;
+    color: #555555;
+}
+
+.checkbox input[type="checkbox"] {
+    opacity: 0;
+    z-index: 1;
+}
+ 
+.checkbox.checkbox-circle label::before {
+    border-radius: 50%; 
+}
+  
+.checkbox-info input[type="checkbox"]:checked + label::before{
+    background-color: #1b71c4;
+    border-color: #1b71c4;
+}
+.checkbox-info input[type="checkbox"]:checked + label::after{
+    color: #fff;
+}
+  
+input[type="checkbox"].styled:checked + label:after {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+input[type="checkbox"] .styled:checked + label::before{
+    color: #fff;
+}
+
+input[type="checkbox"] .styled:checked + label::after {
+    color: #fff;
+}
