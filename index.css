@@ -112,6 +112,7 @@
   }
   .totals {
       font-size: 15px;
+      margin-top: 10px;
   }
   
   .saving {
@@ -133,7 +134,7 @@
   }
 
   .sub-total .text-right {
-      margin-right: 3px;
+      margin-right: 5px;
   }
   
   .selected .card-body .sub-total {
@@ -142,7 +143,7 @@
   
   .checkbox {
     padding-left: 20px;
-    margin-top: -50%;
+    margin-top: -20%;
   }
   
   .checkbox label {
